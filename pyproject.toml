@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "anketasun"
+version = "0.1.0"
+description = ""
+authors = ["newage <allonewage@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytelegrambotapi = "^4.11.0"
+vk = "^3.0"
+
+[tool.poetry.scripts]
+anketasun = "anketasun.anketasun:main"
+db = "anketasun.db:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
